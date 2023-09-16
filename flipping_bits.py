@@ -43,7 +43,7 @@ def to_decimal(binary):
 def make_32_bit(binary):
     """
     In this project, the desired length of each binary number is 32 bits, so if our binary number is less than 32
-    digits, we must add zeros to the left in order to pad the number. This function determines the length of thebinary
+    digits, we must add zeros to the left in order to pad the number. This function determines the length of the binary
     number, determines how many extra zeros are needed, creates a string containing this many zeros, then adds this
     string of zeros to the left of the original binary number, ensuring that the length of it is 32 bits.
     """
